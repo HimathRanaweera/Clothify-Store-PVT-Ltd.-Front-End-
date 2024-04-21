@@ -16,22 +16,21 @@ function Header() {
     return (
 
         <div>
-           <header class="py-5   mb-auto  border-bottom">
+            <header class="py-5   mb-auto  border-bottom">
                 <div class="container d-flex flex-wrap justify-content-center">
                     <a href="./" class="d-flex align-items-center   mb-3  mb-lg-0  me-lg-auto link-body-emphasis text-decoration-none">
-                        <div class="logo
-                        "><img class=" bi me-auto  " width="100" height="60" src=".\src\images\Black White Elegant Feminine Fashion Clothing Logo\1.png"/>
+                        <div class="logo"><img class=" bi me-auto  " width="100" height="60" src=".\src\images\Black White Elegant Feminine Fashion Clothing Logo\1.png" />
                         </div>
                         <span class="fs-3"> <h1> Clothify Store</h1></span>
-                        
+
                     </a>
-                    
+
                     <form class="col-14 col-lg-5  mb-3 mb-lg-0" role="search">
-                        <input type="search" class="form-control" placeholder="Search" aria-label="Search" />
+                        <input type="search" class="form-control" placeholder="Search cloths" aria-label="Search" />
                     </form>
                 </div>
             </header>
-<hr />
+            <hr />
 
             <nav class="py-2 bg-body-tertiary border-bottom">
                 <div class="container d-flex flex-wrap">
@@ -48,10 +47,11 @@ function Header() {
                     </ul>
                 </div>
             </nav>
-          
-          <Home/>
+
+
+            <Home />
         </div>
-        
+
     )
 }
 
