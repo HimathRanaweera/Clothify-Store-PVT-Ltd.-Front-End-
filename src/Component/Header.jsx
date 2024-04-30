@@ -1,16 +1,9 @@
 import React from 'react'
-
-import './Header.css'
 import { } from 'bootstrap/dist/css/bootstrap.min.css'
 import { } from 'bootstrap/dist/js/bootstrap.js'
-import SingUp from './SingUp'
-// import Footer from './Footer'
-// import Home from './Home'
-// import About from './About'
-// import SingUp from './SingUp'
-// import Login from './Login'
 import Home from './Home'
-import './Header.css'
+
+
 
 function Header() {
     return (
@@ -49,7 +42,7 @@ function Header() {
             </nav>
 
 
-            <Home />
+           <Home/>
         </div>
 
     )

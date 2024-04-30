@@ -2,6 +2,7 @@ import React from 'react'
 import { } from 'bootstrap/dist/css/bootstrap.min.css'
 import { } from 'bootstrap/dist/js/bootstrap.js'
 import Footer from './Footer'
+
 function Home() {
   return (
 
@@ -180,7 +181,7 @@ function Home() {
 
 
 
-<Footer />
+<Footer/>
 
     </div>
   )
